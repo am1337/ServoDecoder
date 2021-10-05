@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Servopoint_opto-rescue)(type Legacy)(uri ${KIPRJMOD}/Servopoint_opto-rescue.lib)(options "")(descr ""))
+  (lib (name flipdotUSV-cache)(type Legacy)(uri /home/achim/development/kicad/tmp/flipdot-USV/flipdotUSV-cache.lib)(options "")(descr ""))
+)
