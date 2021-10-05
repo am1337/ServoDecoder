@@ -607,37 +607,6 @@ F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_B
 	1    7900 5500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x05_Male J3
-U 1 1 609C52EE
-P 2150 5250
-F 0 "J3" H 2258 5631 50  0000 C CNN
-F 1 "Conn_01x05_Male" H 2258 5540 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2150 5250 50  0001 C CNN
-F 3 "~" H 2150 5250 50  0001 C CNN
-	1    2150 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2350 5050 3250 5050
-Wire Wire Line
-	2350 5150 3250 5150
-Wire Wire Line
-	2350 5250 3250 5250
-Wire Wire Line
-	2350 5350 3250 5350
-Wire Wire Line
-	2350 5450 3250 5450
-Text Label 3250 5050 2    50   ~ 0
-Vpp
-Text Label 3250 5150 2    50   ~ 0
-GND
-Text Label 3250 5250 2    50   ~ 0
-Vdd
-Text Label 3250 5350 2    50   ~ 0
-Data
-Text Label 3250 5450 2    50   ~ 0
-Clk
 Text Label 4900 2250 0    50   ~ 0
 Vdd
 Text Label 4900 4100 0    50   ~ 0
@@ -834,4 +803,37 @@ F 3 "~" H 4450 1650 50  0001 C CNN
 	1    4450 1650
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Connector:Conn_01x06_Male J3
+U 1 1 615D9BD3
+P 2150 5000
+F 0 "J3" H 2258 5381 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 2258 5290 50  0000 C CNN
+F 2 "" H 2150 5000 50  0001 C CNN
+F 3 "~" H 2150 5000 50  0001 C CNN
+	1    2150 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 4800 2800 4800
+Wire Wire Line
+	2350 4900 2800 4900
+Wire Wire Line
+	2350 5000 2800 5000
+Wire Wire Line
+	2350 5100 2800 5100
+Wire Wire Line
+	2350 5200 2800 5200
+Wire Wire Line
+	2350 5300 2800 5300
+Text Label 2800 4900 2    50   ~ 0
+Vdd
+Text Label 2800 5000 2    50   ~ 0
+GND
+Text Label 2800 5200 2    50   ~ 0
+Clk
+Text Label 2800 5100 2    50   ~ 0
+Data
+Text Label 2800 4800 2    50   ~ 0
+Vpp
 $EndSCHEMATC

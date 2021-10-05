@@ -497,17 +497,6 @@ F 3 "~" H 4200 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:L L1
-U 1 1 607C6965
-P 4450 1650
-F 0 "L1" V 4640 1650 50  0000 C CNN
-F 1 "33uH" V 4549 1650 50  0000 C CNN
-F 2 "Inductor_SMD:L_12x12mm_H8mm" H 4450 1650 50  0001 C CNN
-F 3 "~" H 4450 1650 50  0001 C CNN
-	1    4450 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR06
 U 1 1 607CDDC3
 P 4200 2050
@@ -834,4 +823,48 @@ F 3 "" H 9500 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9500 2600 9650 2600
+$Comp
+L Device:L L1
+U 1 1 607C6965
+P 4450 1650
+F 0 "L1" V 4640 1650 50  0000 C CNN
+F 1 "33uH" V 4549 1650 50  0000 C CNN
+F 2 "Inductor_SMD:L_12x12mm_H8mm" H 4450 1650 50  0001 C CNN
+F 3 "~" H 4450 1650 50  0001 C CNN
+	1    4450 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 615D9BD3
+P 1100 5150
+F 0 "J?" H 1208 5531 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 1208 5440 50  0000 C CNN
+F 2 "" H 1100 5150 50  0001 C CNN
+F 3 "~" H 1100 5150 50  0001 C CNN
+	1    1100 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 4950 1750 4950
+Wire Wire Line
+	1300 5050 1750 5050
+Wire Wire Line
+	1300 5150 1750 5150
+Wire Wire Line
+	1300 5250 1750 5250
+Wire Wire Line
+	1300 5350 1750 5350
+Wire Wire Line
+	1300 5450 1750 5450
+Text Label 1750 5050 2    50   ~ 0
+Vdd
+Text Label 1750 5150 2    50   ~ 0
+GND
+Text Label 1750 5350 2    50   ~ 0
+Clk
+Text Label 1750 5250 2    50   ~ 0
+Data
+Text Label 1750 4950 2    50   ~ 0
+Vpp
 $EndSCHEMATC
